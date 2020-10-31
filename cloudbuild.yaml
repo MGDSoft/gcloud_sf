@@ -12,5 +12,5 @@ steps:
       - 'APP_ENV=test'
       - 'WHITELIST_FUNCTIONS=shell_exec,passthru,proc_open,proc_close'
   # Deploy
-#  - name: 'gcr.io/cloud-builders/gcloud'
-#    args: ['beta', 'app', 'deploy', '--quiet', '--image-url', 'gcr.io/$PROJECT_ID/$REPO_NAME:$COMMIT_SHA', '--version', '$BRANCH_NAME', '--no-promote']
+  - name: 'gcr.io/cloud-builders/gcloud'
+    args: ['beta', 'app', 'deploy', '--quiet', '--image-url', 'gcr.io/$PROJECT_ID/$REPO_NAME:$COMMIT_SHA', '--version', '$BRANCH_NAME', '--no-promote']
