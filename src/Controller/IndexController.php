@@ -14,6 +14,6 @@ class IndexController extends AbstractController
     public function indexAction()
     {
 //        dump($this->getDoctrine()->getConnection()->connect());
-        return new Response('CORRIENDO');
+        return new Response('CORRIENDO update');
     }
 }
