@@ -1,0 +1,10 @@
+# Dockerfile
+FROM gcr.io/google-appengine/php
+# .dockerignore
+.gcloudignore
+.git
+.gitignore
+vendor/
+var/
+Dockerfile
+.dockerignore
