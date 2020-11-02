@@ -13,6 +13,7 @@ class IndexController extends AbstractController
      */
     public function indexAction()
     {
+        throw new \Error('error');
 //        dump($this->getDoctrine()->getConnection()->connect());
         return new Response('CORRIENDO update');
     }
