@@ -1,1 +1,3 @@
-FROM eu.gcr.io/cloudprueba/appengine
+FROM gcr.io/google-appengine/php
+
+ENV DOCUMENT_ROOT /app/public

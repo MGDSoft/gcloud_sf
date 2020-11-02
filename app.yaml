@@ -9,5 +9,5 @@ env_variables:
     APP_ENV: "prod"
     DB_DATABASE: cloudtest
     DB_USERNAME: root
-    DB_PASSWORD: rootgit init
+    DB_PASSWORD: root
     DB_SOCKET: "/cloudsql/cloudpruebasql"
